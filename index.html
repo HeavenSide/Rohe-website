@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rohe - Architecture Firm</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+        <nav class="navbar">
+            <div class="logo"><img src="img/LOGO.png"></div>
+            <div class="menu-toggle" onclick="toggleMenu()">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+    <!-- Hero Section -->
+    <div class="hero">
+        <h1>Let’s Build a Better World Together</h1>
+        <p><i>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using.</i></p> 
+        <button><b>Check our projects!</b></button>
+    </div>
+
+    <!-- About Section -->
+    <div class="container">
+        <div class="row">
+            <div class="spec one">
+                <img src="img/freepik-02.jpg" alt="About Image" class="img-fluid">
+            </div>
+            <div class="spec two">
+                <img src="img/freepik-03.jpg" alt="About Image" class="img-fluid">
+            </div>
+            <div class="col-md-6">
+                <h2 class="section-title">About our company</h2>
+                <p>Change the way you live life, closer to nature. It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                <p>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, making it look like readable English.</p>
+            </div>
+        </div>
+    
+        <div class="row">
+            <div class="col-md-6">
+                <h2 class="section-title"><b>New way of living</b></h2>
+                <p>It is a long established fact that a reader will behjd distracted by the readable content of a page when looking at its layout.</p>
+                <p><i>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.</i></p>
+            </div>
+            <div class="col-md-3">
+                <img src="img/freepik-02.jpg" alt="About Image" class="img-fluid">
+            </div>
+        </div>
+    </div>
+
+    <!-- Dig in Section -->
+    <div class="dig-in">
+        <h1>DIG IN</h1>
+        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC.</p>
+        <button>Gallery</button>
+    </div>
+
+    <!-- little gallery -->
+    <div class="short-gallery">
+        <div class="gallery-row">
+            <div class="gallery-item">
+                <img src="img/freepik-4.png" alt="Image" class="img-fluid">
+                <div class="overlay">
+                    <h3>Somewhere</h3>
+                    <p>One Random Building</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="img/freepik-5.png" alt="Image" class="img-fluid">
+                <div class="overlay">
+                    <h3>Somewhere</h3>
+                    <p>One Random Building</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="img/freepik-6.png" alt="Image" class="img-fluid">
+                <div class="overlay">
+                    <h3>Somewhere</h3>
+                    <p>One Random Building</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="img/freepik-7.jpg" alt="Image" class="img-fluid">
+                <div class="overlay">
+                    <h3>Somewhere</h3>
+                    <p>One Random Building</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Services Section -->
+    <div class="services">
+        <h2>Our Services</h2>
+        <div class="service-container">
+            <div class="service">
+                <img src="img/freepik_sketch.jpg" alt="Connect with nature">
+                <h3>Connect with nature</h3>
+                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+            </div>
+            <div class="service">
+                <img src="img/freepik_sketch_2.jpg" alt="Process">
+                <h3>Process</h3>
+                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+            </div>
+            <div class="service">
+                <img src="img/freepik-sketch-3.jpg" alt="Building">
+                <h3>Building</h3>
+                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+            </div>
+            <div class="service">
+                <img src="img/freepik-sketch-4.jpg" alt="Connect with nature">
+                <h3>Connect with nature</h3>
+                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>© 2022 Rohe | Privacy Policy</p>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            document.querySelector('.nav-links').classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
