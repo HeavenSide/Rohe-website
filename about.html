@@ -1,36 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rohe - Architecture Firm</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/about.css">
 
-<section class="services" id="services">
-    <h1>Our Services</h1>
-    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-    
-    <div class="service-grid">
-        <div class="service-card">
-            <img src="sketch.jpg" alt="Sketching and planning">
-            <h2>Sketching and planning</h2>
-            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+</head>
+<body>
+    <!-- Navigation Section -->
+    <nav class="navbar">
+        <div class="logo"><img src="img/LOGO.png"></div>
+        <div class="menu-toggle" onclick="toggleMenu()">
+            <div></div>
+            <div></div>
+            <div></div>
         </div>
-        <div class="service-card">
-            <img src="process.jpg" alt="Process">
-            <h2>Process</h2>
-            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-        </div>
-        <div class="service-card">
-            <img src="building.jpg" alt="Building">
-            <h2>Building</h2>
-            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-        </div>
-        <div class="service-card">
-            <img src="nature.jpg" alt="Connect with nature">
-            <h2>Connect with nature</h2>
-            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-        </div>
-    </div>
-</section>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
 
-<footer>
-    <div class="footer-info">
-        <p>Location: 3932 Random Street 36, Random City 123</p>
-        <p>Number: 408-781-8366, 831-498-7924</p>
+    <!-- About Section -->
+    <div class="about-content">
+
+        <section class="about-us">
+            <div class="about-text">
+                <h1>About us</h1>
+                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.</p>
+                <p2>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.</p2>
+            </div>
+            <div class="images">
+                <img class="one" src="img/freepik-1.jpg" alt="Building 1">
+                <img class="two" src="img/freepik-02.jpg" alt="Building 2">
+            </div>
+        </section>
+
+        <section class="our-team">
+            <div class="images">
+                <img src="img/freepik-8.png" alt="Team">
+            </div>
+            <div class="about-text">
+                <h1>Our Team</h2>
+                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.</p>
+                <p2>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.</p2>
+            </div>
+        </section>
+
     </div>
-    <p>&copy; 2022 Rohe | Privacy Policy</p>
-</footer>
+
+    <script>
+        function toggleMenu() {
+            document.querySelector('.nav-links').classList.toggle('active');
+        }
+    </script>
+</body>
+</html>

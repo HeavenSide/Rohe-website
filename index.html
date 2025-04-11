@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rohe - Architecture Firm</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
 
 </head>
 <body>
-
+    <!-- Navigation Section -->
         <nav class="navbar">
             <div class="logo"><img src="img/LOGO.png"></div>
             <div class="menu-toggle" onclick="toggleMenu()">
@@ -42,8 +42,9 @@
             </div>
             <div class="col-md-6">
                 <h2 class="section-title">About our company</h2>
-                <p>Change the way you live life, closer to nature. It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-                <p>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, making it look like readable English.</p>
+                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal dis</p>
+                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters
+                    , as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem</p>
             </div>
         </div>
     
@@ -127,16 +128,54 @@
         </div>
     </div>
 
+   <!-- Sponsors Section-->
+    <div class="sponsors">
+        <h2>Partners:</h2>
+        <div class="marquee-wrapper">
+            <div class="sponsor-container">
+                <div class="sponsor"><img src="img/company-logo.png" alt="company-1"></div>
+                <div class="sponsor"><img src="img/company-logo.png" alt="company-2"></div>
+                <div class="sponsor"><img src="img/company-logo.png" alt="company-3"></div>
+                <div class="sponsor"><img src="img/company-logo.png" alt="company-4"></div>
+                <div class="sponsor"><img src="img/company-logo.png" alt="company-5"></div>
+                <div class="sponsor"><img src="img/company-logo.png" alt="company-6"></div>
+                <div class="sponsor"><img src="img/company-logo.png" alt="company-7"></div>
+
+                <!-- duplikati za loop -->
+                <div class="sponsor"><img src="img/company-logo.png" alt="company-1"></div>
+                <div class="sponsor"><img src="img/company-logo.png" alt="company-2"></div>
+                <div class="sponsor"><img src="img/company-logo.png" alt="company-3"></div>
+            </div>
+        </div>
+    </div>
 
     <!-- Footer -->
-    <footer class="footer">
-        <p>© 2022 Rohe | Privacy Policy</p>
-    </footer>
+    <div class="footer">
+
+    <div class="row">
+        <div class="info">
+            <h1>Location:</h1>
+            <p>3932 Random street 36</p>
+            <p>Random city 123</p>
+            <p>37.347061</p>
+        </div>
+        <div class="info">
+            <h1>Number:</h1>
+            <p>408-781-8366</p>
+            <p>831-498-7924</p>
+        </div>
+    </div>
+
+        <div class="copy-right">
+            <p>© 2025 Rohe | Privacy Policy</p>
+        </div>
+    </div>
 
     <script>
         function toggleMenu() {
             document.querySelector('.nav-links').classList.toggle('active');
         }
     </script>
+
 </body>
 </html>

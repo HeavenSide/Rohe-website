@@ -1,0 +1,77 @@
+.about-content {
+    padding-top: 150px;
+    max-width: 1200px;
+    margin: 0 auto; /* centriraj ceo sadržaj */
+    padding: 150px 20px 50px;
+}
+
+/* About Us Section */
+.about-us {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 60px;
+    
+    .about-text {
+        flex: 1 1 500px;
+        text-align: left;
+    
+        h1 {
+            color: #007bff;
+            font-weight: 300;
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+    
+        p {
+            font-size: 18px;
+            color: white;
+            margin-bottom: 15px;
+        }
+    
+        p2 {
+            font-size: 16px;
+            color: #b0b0b0;
+            display: block;
+        }
+    }
+}
+
+.about-us .images img {
+    width: 100px;
+    height: auto;
+}
+
+/* Our Team Section */
+.our-team {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    padding-top: 50px;
+
+    h1 {
+        color: #007bff;
+        font-weight: 300;
+        font-size: 36px;
+        margin-bottom: 20px;
+    }
+
+    p {
+        font-size: 18px;
+        color: white;
+        margin-bottom: 15px;
+    }
+
+    p2 {
+        font-size: 16px;
+        color: #b0b0b0;
+        display: block;
+    }
+}
+
+.our-team .images img {
+    max-width: 100%;
+    height: auto;
+}
